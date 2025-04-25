@@ -1,0 +1,96 @@
+/* all page */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fefefe;
+  padding: 20px;
+}
+nav {
+  background-color: #cd031c;
+  padding: 10px;
+  text-align: center;
+}
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #cd031c;
+   color: white;
+   text-align: center;
+   padding: 10px;
+}
+/* home page */
+
+/* product */
+
+#orderTable {
+      width: 80%;
+      margin: auto;
+      border-collapse: collapse;
+    }
+
+#orderTable td {
+      vertical-align: top;
+      padding: 15px;
+	  text-align: left;
+	}	
+
+/* testimony page */
+
+#testimonyTable {
+      width: 80%;
+      margin: auto;
+      border-collapse: collapse;
+    }
+
+#testimonyTable td {
+      width: 50%;
+      vertical-align: top;
+      padding: 15px;
+      text-align: justify;
+    }
+
+#testimonyTable h3 {
+		color: orange;
+	}
+
+#testimony {
+      float: left;
+      margin-right: 15px;
+      width: 30%;
+    }
+	
+#testimonyRate {     
+	float: left;
+      margin-right: 15px;
+      width: 30%;
+    }
+
+.cellColor {
+	 background-color: #f2f2f2;
+}
+
+
+/* contact page */
+
+.detailsContact{
+      width: 30%;
+      vertical-align: top;
+      padding: 15px;
+      text-align: justify;
+    }
+	
+#contactTable h2, strong{
+	color: red;
+}
+  
+.strike { text-decoration: line-through; color: gray; }
+table { width: 100%; border-collapse: collapse; }
+td, th { border: 1px solid #ddd; padding: 8px; text-align: center; }
