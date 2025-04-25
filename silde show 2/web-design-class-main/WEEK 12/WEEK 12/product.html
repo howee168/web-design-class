@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product</title>
+  <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+  <nav>
+    <a href="index.html">HOME</a> |
+    <a href="about.html">OUR COMMITMENT</a> |
+    <a href="product.html">PRODUCT</a> |
+    <a href="testimony.html">ECO TIPS</a> |
+    <a href="contact.html">GET IN TOUCH</a>
+  </nav>
+  
+  
+  <h2 align="center">What We Offer</h2>
+  <h3 align="center">Here are our most popular menu items.</h3>
+
+  <table>
+	 <tr>
+		<td> <img src="images/productA.jfif" style="width:50%"> </td>
+		<td> <img src="images/productB.jfif" style="width:50%"> </td>
+		<td> <img src="images/productC.jfif" style="width:50%"> </td>
+	</tr>
+    <tr>
+		<td>Eco Bottle</td>
+		<td>Bamboo toothbrush</td>
+		<td>Reuseable Bag</td>
+	</tr>
+    <tr>
+		<td class="strike">RM 20.00</td>
+		<td class="strike">RM 25.00</td>
+		<td class="strike">RM 30.00</td>
+	</tr>
+	<tr>
+		<td>RM 15.00</td>
+		<td>RM 19.00</td>
+		<td>RM 24.00</td>
+	</tr>
+  </table>
+  
+  <br>
+  <h2 align="center">Order Now</h2>
+  <form id="orderForm">
+  <table id="orderTable">
+	<tr>
+		<td><label for="name">Name :</label></td>
+		<td><input type="text" id="name" required></td>
+	</tr>
+	
+	<tr>
+		<td><label for="contact">Contact Number :</label></td>
+		<td><input type="tel" id="contact" required></td>
+	</tr>
+	
+	<tr>
+		<td><label for="email">Email :</label></td>
+		<td><input type="email" id="email" required></td>
+	</tr>
+	
+	<tr>
+		<td> <label for="address">Address :</label></td>
+		<td><textarea id="address" required></textarea></td>
+	</tr>
+	
+	<tr>
+		<td style="width:20%"><label for="product">Product :</label></td>
+		<td><select id="product" required>
+			  <option value="">-- Select a Product --</option>
+			  <option value="Product A">Product A</option>
+			  <option value="Product B">Product B</option>
+			  <option value="Product C">Product C</option>
+			</select>
+		</td>
+	</tr>
+	
+	<tr>
+		<td><label for="quantity">Quantity :</label></td>
+		<td><input type="number" id="quantity" min="1" required></td>
+	</tr>
+	
+	<tr>
+		<td><label for="date">Delivery Date :</label></td>
+		<td><input type="date" id="date" required></td>
+	</tr>
+	
+	<tr>
+		<td><label for="notes">Notes :</label></td>
+		<td><textarea id="notes"></textarea></td>
+	</tr>
+	
+	<tr>
+		<td></td>
+		<td><button type="submit">SUBMIT ORDER</button>
+			<button type="reset">RESET FORM</button>
+		</td>
+	</tr>
+
+  </table>
+  </form>
+ 
+  <footer>© Copyright 2025</footer>
+</body>
+</html>
